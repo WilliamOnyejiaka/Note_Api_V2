@@ -16,6 +16,7 @@
       }
     },
     "require": {
-        "wonder-tech/wonder-ral": "dev-main"
+        "wonder-tech/wonder-ral": "dev-main",
+        "vlucas/phpdotenv": "5.4.x-dev"
     }
 }
