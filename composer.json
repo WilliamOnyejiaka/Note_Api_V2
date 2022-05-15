@@ -1,0 +1,21 @@
+{
+    "name": "user/note_api_v2",
+    "description": "note api version 2",
+    "type": "project",
+    "authors": [
+        {
+            "name": "William Onyejiaka",
+            "email": "williamonyejiaka08062528003@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+      "psr-4": {
+        "Module\\": "src/modules/",
+        "Model\\":"api/v2/models/"
+      }
+    },
+    "require": {
+        "wonder-tech/wonder-ral": "dev-main"
+    }
+}

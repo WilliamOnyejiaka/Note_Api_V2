@@ -1,0 +1,10 @@
+DirectoryIndex index.php
+
+RewriteEngine on
+
+RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^(.*)$ Note_Api_V2/api/v2/routes/auth/index.php [QSA]
